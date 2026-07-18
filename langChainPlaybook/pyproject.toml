@@ -1,0 +1,14 @@
+[project]
+name = "langchainplaybook"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "langchain>=1.3.14",
+    "langchain-anthropic>=1.4.8",
+    "langchain-google-genai>=4.2.7",
+    "langchain-openai>=1.3.5",
+    "pypdf>=6.14.2",
+]
